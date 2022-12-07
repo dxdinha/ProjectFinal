@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Health</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/bmi.css" type="text/css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    
+    <!-- header -->
+
+    <header class="header">
+
+        <a href="index.html" class="logo"> <i class="fa-regular fa-heart-pulse"></i>Happy Health</a>
+
+          <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="services.html">services</a>
+            <a href="products.html">products</a>
+            <a href="gallery.html">gallery</a>
+            <a href="bmi.html">BMI calculator</a>
+            <a href="register.html">Register</a>
+            
+        </nav>
+        <div class="icons">
+    
+        <a href="#"> <div id="search-btn" class="fas fa-search"></div></a>
+        <a href="login.html"><div class="fas fa-user" id="login-btn"></div></a>
+        <a href="#"> <div id="menu-btn" class="fas fa-bars"></div></a> 
+           
+        </div>
+        
+        
+    </header>
+
+
+    <!-- end -->
+
+    <!-- home -->
+    <div class="bmi">
+    <h3>Body Mass Index Calculator</h3>
+        <form class="form" id="form" onsubmit="return validateForm()">
+                
+        <div class="row-one">
+            <input type="text" class="text-input" id="age" autocomplete="off" required/><p class="text">Age</p>
+                
+        <label class="container">
+            <input type="radio" name="radio" id="f"><p class="text">Female</p>
+            <span class="checkmark"></span>
+        </label>
+                
+        <label class="container">
+            <input type="radio" name="radio" id="m"><p class="text">Male</p>
+        <span class="checkmark"></span>
+        </label>
+        </div>
+
+        <div class="row-two">
+            <input type="text" class="text-input" id="height" autocomplete="off" required>
+            <p class="text">Height (cm)</p>
+            <input type="text" class="text-input" id="weight" autocomplete="off" required>
+            <p class="text">Weight (kg)</p>
+        </div>
+            <button type="button" id="submit">Submit</button>
+        </form>
+        </div>
+
+<!-- end -->
+
+<!-- footer -->
+        <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> Happy Health</h3>
+                <p>Get More Out Of Life</p>
+                <p class="links"><i class="fas fa-clock"></i>monday - friday</p>
+                <p class="days">7:00AM - 7:00PM</p>
+            </div>
+
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#" class="links"><i class="fas fa-phone"></i> 123-456-789</a>
+                <a href="#" class="links"><i class="fas fa-phone"></i> 123-456-789</a>
+                <a href="#" class="links"><i class="fas fa-envelope"></i> k00272292@student.lit.ie</a>
+                <a href="#" class="links"><i class="fas fa-map-marker-alt"></i> Limerick City</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="index.html" class="links"> <i class="fas fa-arrow-right"></i>home</a>
+                <a href="services.html" class="links"> <i class="fas fa-arrow-right"></i>services</a>
+                <a href="products.html" class="links"> <i class="fas fa-arrow-right"></i>products</a>
+                <a href="gallery.html" class="links"> <i class="fas fa-arrow-right"></i>gallery</a>
+                <a href="bmi.html" class="links"> <i class="fas fa-arrow-right"></i>bmi calculator</a>
+                <a href="register.html" class="links"> <i class="fas fa-arrow-right"></i>register</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="enter your email" class="email">
+                <a href="#" class="btn">subscribe</a>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="credit">&copy; K00272292- Maria Eduarda Machado</div>
+
+    </section>
+    
+<!-- end -->
+
+    
+</body>
+</html>
